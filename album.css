@@ -1,0 +1,100 @@
+body{
+    font-family: "맑은고딕", "고딕", "굴림";
+}
+*{
+    background-color: #efefef;
+}
+
+@font-face{
+    font-family:a옛날목욕탕L;
+    src:url(a옛날목욕탕L.ttf);
+    font-weight:normal;
+}
+
+@font-face{
+    font-family:a옛날목욕탕M;
+    src:url(Sa옛날목욕탕M.ttf);
+    font-weight:normal;
+}
+
+@font-face{
+    font-family:a옛날목욕탕B;
+    src:url(a옛날목욕탕B.ttf);
+    font-weight:bold;
+}
+
+@font-face{
+    font-family:Florsn17;
+    src:url(Florsn17.ttf);
+    font-weight:normal;
+}
+
+@font-face{
+    font-family:Florsn21;
+    src:url(Florsn21.ttf);
+    font-weight:bold;
+}
+
+@font-face{
+    font-family:Florsn25;
+    src:url(Florsn17.ttf);
+    font-weight:bold;
+}
+
+#icon{
+    width:130px;
+    height:130px;
+    margin: 2px 20px;
+    float: left;
+
+}
+
+.list{
+    list-style: none;
+    font-family:Florsn25;
+    padding: 10px 30px 40px;
+    border-bottom: 1px solid #365aff;
+    width: 600px;
+}
+
+header nav{
+    width: 50%;
+    float:right;
+}
+
+nav ul li{
+    display: inline;
+    margin: 15px;
+}
+
+
+a:link{
+    color: #484848;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #8d8d8d;
+}
+
+a:hover{
+    color:#365aff;
+}
+
+tr{
+    margin: auto;
+}
+
+td{
+   border: none;
+   padding: 0 25px 5px ;
+   font-family:a옛날목욕탕L;
+   font-size: 20px;
+    color:#8293dd;
+}
+
+.image{
+    margin-bottom:10px;
+    margin-top: 100px;
+    width: 100%;
+}
